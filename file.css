@@ -1,0 +1,80 @@
+body {
+  background-image: url("./x.svg");
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-left:80px
+}
+
+#contact{
+    margin-left:140px
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 70px;
+  padding-top:50px;
+  box-shadow:10px 10px 5px 5px white
+}
+main{
+    margin-top:150px;
+}
+.profile-image{
+    border-radius:50%
+}
+.container{
+    background-color:rgb(188, 182, 182);
+    width:550px;
+    margin:auto;
+    border-radius: 10px;
+}
+ul{
+    list-style:none
+}
+.container:hover{
+    background-color:gray;
+    cursor: pointer;
+}
+.contact-form{
+    background-color:#3d83df;
+    width:550px;
+    margin:50px auto 100px auto;
+    border-radius:10px;
+    padding-top:10px;
+
+}
+input,textarea{
+    border-radius:15px;
+    margin-bottom:10px;
+}
+button{
+    border:none;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-bottom: 10px;
+}
+.image{
+    border-radius: 50%;
+}
+footer{
+    width:100%;
+    position:fixed;
+    bottom:0;
+    background-color:white;
+    left:0px
+}
+.contact-form:hover{
+    cursor:pointer;
+    background-color:gray
+}
+.avatar{
+    float:left;
+}
+.message{
+    float:right;
+}
